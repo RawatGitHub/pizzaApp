@@ -1,0 +1,77 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+  font-family: "lato", "Rubik", "sans-serif";
+}
+
+nav li:last-child a {
+  background: #FE5F1E;
+}
+nav li:last-child a:hover {
+  background: #b23301;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
+}
+nav li a:hover {
+  color: #FE5F1E;
+}
+
+section.hero {
+  background-color: #F8F8F8;
+}
+
+.btn-primary {
+  background-color: #FE5F1E;
+}
+.btn-primary:hover {
+  background-color: #b23301;
+}
+
+section .size {
+  background-color: #F8F8F8;
+}
+
+.add-to-cart {
+  border: 2px solid #FE5F1E;
+  color: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.add-to-cart:hover {
+  background: #FE5F1E;
+  border-color: #fff;
+  color: #fff;
+}
+.add-to-cart:focus {
+  outline: none;
+}
+
+.menu {
+  overflow: auto;
+}
+
+.pizza-grid {
+  justify-items: center;
+  align-content: center;
+}
+
+section.cart {
+  background-color: #F8F8F8;
+}
+
+.login-box {
+  min-height: calc(100vh - 86px);
+  background-color: #F8F8F8;
+}
+.login-box a {
+  color: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.login-box a:hover {
+  color: #b23301;
+}
+
+.login-box button {
+  transition: all 0.3s ease-in-out;
+}

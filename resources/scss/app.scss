@@ -1,0 +1,81 @@
+@import "./variables";
+
+body{
+    -webkit-font-smoothing: antialiased;
+    color: $dark;
+    font-family: "lato", "Rubik", "sans-serif";
+}
+
+nav li:last-child a {
+    background: $primary;
+    &:hover {
+        background: $primary-hover;
+    }
+}
+
+nav li a{
+    transition: $smooth;
+    &:hover{
+        color: $primary;
+    }
+}
+
+section.hero{
+    background-color: $secondary;
+}
+
+.btn-primary{
+    background-color: $primary;
+    &:hover{
+        background-color: $primary-hover;
+    }
+}
+
+section .size{
+    background-color: $secondary;
+}
+
+.add-to-cart {
+    border: 2px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover {
+        background: $primary;
+        border-color: $pure;
+        color: $pure;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.menu{
+    overflow: auto;
+}
+
+
+.pizza-grid{
+    justify-items: center;
+    align-content: center;
+
+}
+
+section.cart{
+    background-color: $secondary;
+}
+
+.login-box{
+     min-height: calc(100vh - 86px);
+     background-color: $secondary;
+     a{
+         color: $primary;
+         transition: $smooth;
+         &:hover{
+             color: $primary-hover;
+         }
+     }
+}
+
+.login-box button{
+    transition: $smooth;
+}
